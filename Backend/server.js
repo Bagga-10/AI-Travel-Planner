@@ -49,8 +49,9 @@ app.post("/chat", async (req, res) => {
   }
 });
 
-app.get("/",(res,req)=>{
+app.get("/",(req,res)=>{
   res.send('Welcome');
 });
 
+const PORT = process.env.PORT || 5000;
 app.listen(5000, () => console.log("🚀 Server running on port 5000"));
