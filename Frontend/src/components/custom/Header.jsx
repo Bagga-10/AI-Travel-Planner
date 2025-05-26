@@ -71,7 +71,7 @@ function Header() {
       <div className="flex items-center gap-3">
         <img src="/logo.svg" alt="Logo" className="h-10" />
         <a href="/">
-          <h1 className="text-2xl font-extrabold font-[cursive] p-3 animate-bounce">
+          <h1 className="text-2xl font-semibold p-3 animate-bounce">
             Bagga☠️
           </h1>
         </a>
